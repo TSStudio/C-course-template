@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++",
+                    "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin",
+                    "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward",
+                    "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/11/include"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
