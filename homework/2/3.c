@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(void){
     double min,tmp;
@@ -11,7 +12,7 @@ int main(void){
     }
     printf("The minimum is %.2lf\n", min);
     #ifdef DEBUG
-    getchar();getchar();
+    system("pause");
     #endif
     return 0;
 }
