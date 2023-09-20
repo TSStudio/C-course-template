@@ -6,7 +6,6 @@
             "label": "cpp-build",
             "command": "g++.exe",
             "args": [
-                "-fexec-charset=GBK",
                 "-g",
                 "${file}",
                 "-o",
@@ -25,7 +24,6 @@
             "label": "c-build",
             "command": "gcc.exe",
             "args": [
-                "-fexec-charset=GBK",
                 "-g",
                 "${file}",
                 "-o",
