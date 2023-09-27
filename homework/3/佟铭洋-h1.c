@@ -24,12 +24,11 @@ int main(void){
     scanf("%f%f%f", &a, &b, &c);
     SolveQuadraticEquation(a, b, c, &numSolutions, solution);
     if (numSolutions == 0) {
-        printf("No solution\n");
+        printf("The equation has no solution.\n");
     } else if (numSolutions == 1) {
-        printf("One solution: %f\n", solution[0]);
+        printf("The equation has 1 solution:\n%f\n", solution[0]);
     } else {
-        printf("Two solutions: %f, %f\n", solution[0], solution[1]);
+        printf("The equation has 2 solutions:\n%f\n%f\n", solution[0], solution[1]);
     }
-    getchar();getchar();
     return 0;
 }

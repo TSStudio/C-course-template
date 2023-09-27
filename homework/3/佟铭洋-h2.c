@@ -21,7 +21,6 @@ int main(void){
     for (int i = len - 1; i >= 0; i--) {
         printf("%d", digit[i]);
     }
-    printf("\n%d\n", len);
     getchar();getchar();
     return 0;
 }
