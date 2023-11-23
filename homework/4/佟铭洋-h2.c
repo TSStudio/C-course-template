@@ -13,7 +13,7 @@ void ToLowerCase(char* str) {
     return;
 }
 int main(void){
-    char a[100]="Hello World!\nHello China!\nHello Beijing!\n";
+    char a[]="Hello World!\nHello China!\nHello Beijing!\n";
     ToLowerCase(a);
     printf("%s", a);
     getchar();getchar();

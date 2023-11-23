@@ -11,6 +11,7 @@
             ],
             "defines": [
                 "_DEBUG",
+                "DEBUG",
                 "UNICODE",
                 "__GNUC__=6",
                 "__cdecl=__attribute__((__cdecl__))"

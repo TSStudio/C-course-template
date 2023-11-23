@@ -24,7 +24,7 @@ double Integral_simpson(double a, double b, double err) {
 double Integral_simple(double a, double b, double err) {//太慢了
     double h=fabs(b-a);
     double fa=f(a), fb=f(b);
-    if(fabs(fa-fb)*h/2<err){// /2利用凹函数性质
+    if(fabs(fa-fb)*h<err){
         return (fa+fb)*h/2;
     }
     return Integral_simple(a,(a+b)/2,err/2)+Integral_simple((a+b)/2,b,err/2);

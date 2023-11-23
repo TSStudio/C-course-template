@@ -2,6 +2,13 @@
     "files.associations": {
         "time.h": "c",
         "math.h": "c",
-        "cmath": "c"
-    }
+        "cmath": "c",
+        "numeric": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "hashtable.h": "c"
+    },
+    "editor.formatOnSave": true
 }

@@ -11,7 +11,8 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-DDEBUG",
-                "-std=c++14"
+                "-std=c++14",
+                "-Wall"
             ],
             "options": {
                 "cwd": "C:\\cygwin64\\bin"
@@ -29,7 +30,8 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-DDEBUG",
-                "-std=c99"
+                "-std=c99",
+                "-Wall"
             ],
             "options": {
                 "cwd": "C:\\cygwin64\\bin"
